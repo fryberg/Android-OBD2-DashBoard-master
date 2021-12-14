@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CustomGauge">
+        <attr name="pointSize" format="integer" />
+        <attr name="pointStartColor" format="color" />
+        <attr name="pointEndColor" format="color" />
+        <attr name="strokeColor" format="color" />
+        <attr name="strokeWidth" format="dimension" />
+        <attr name="strokeCap" format="string" />
+        <attr name="startAngel" format="integer" />
+        <attr name="sweepAngel" format="integer" />
+        <attr name="startValue" format="integer" />
+        <attr name="endValue" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="ValueMeter">
+        <attr name="valueCaptionText" format="reference|string" />
+        <attr name="valueCaptionTextSize" format="dimension" />
+        <attr name="valueCaptionTextColor" format="reference|color" />
+        <attr name="valueCaptionBackground" format="reference|color" />
+        <attr name="valueCaptionPosition" format="enum">
+            <enum name="top" value="0" />
+            <enum name="bottom" value="1" />
+        </attr>
+        <attr name="valueIcon" format="reference" />
+        <attr name="valueText" format="reference|string" />
+        <attr name="valueTextSize" format="dimension" />
+        <attr name="valueTextColor" format="reference|color" />
+        <attr name="valueUnitText" format="reference|string" />
+        <attr name="valueUnitTextSize" format="dimension" />
+        <attr name="valueUnitTextColor" format="reference|color" />
+        <attr name="valueUnitBackground" format="reference|color" />
+        <attr name="valuePanelBackground" format="reference|color" />
+        <attr name="valueHasUnit" format="boolean" />
+        <attr name="valueLarge" format="boolean" />
+        <attr name="valueHasSummary" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="ValueView">
+        <attr name="viewLayout" format="reference" />
+        <attr name="includeLargeIcon" format="boolean" />
+    </declare-styleable>
+      <declare-styleable name="SpeedMeter">
+        <attr name="speedText" format="reference|string" />
+        <attr name="speedTextSize" format="dimension" />
+        <attr name="speedTextColor" format="reference|color" />
+        <attr name="speedBackground" format="reference|color" />
+        <attr name="speedUnitText" format="reference|string" />
+        <attr name="speedUnitTextSize" format="dimension" />
+        <attr name="speedUnitTextColor" format="reference|color" />
+        <attr name="speedUnitBackground" format="reference|color" />
+        <attr name="speedTextShadowColor" format="reference|color"/>
+        <attr name="speedTextShadowDx" format="float"/>
+        <attr name="speedTextShadowDy" format="float"/>
+        <attr name="speedTextShadowRadius" format="float"/>
+        <attr name="speedUnitShadowColor" format="reference|color"/>
+        <attr name="speedUnitShadowDx" format="float"/>
+        <attr name="speedUnitShadowDy" format="float"/>
+        <attr name="speedUnitShadowRadius" format="float"/>
+    </declare-styleable>
+</resources>

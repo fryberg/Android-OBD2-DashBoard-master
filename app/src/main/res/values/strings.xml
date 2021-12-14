@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">OBD2 DashBoard</string>
+	 <string name="btn_ok">OK</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_yes">Yes</string>
+    <string name="btn_exit">Exit</string>
+
+    <!-- General setting -->
+
+
+    <string name="empty_int_value">---</string>
+    <string name="empty_float_value">--.-</string>
+    <string name="empty_hmmss_value">-:--:--</string>
+
+
+    <!-- Preferences -->
+    <string name="distance_unit_km">km</string>
+    <string name="speed_unit_kph">km/h</string>
+    <string name="fuel_economy_unit_kpl">km/L</string>
+
+
+    <string name="driving_no_value_exp">---</string>
+    <string name="driving_no_time_exp">--:--</string>
+    <string name="driving_clear_stored_dtc">Clear all stored DTC.</string>
+
+    <string name="driving_value_accel_position">Accel. Pos.</string>
+    <string name="driving_value_fuel_level">Fuel Level</string>
+    <string name="driving_value_barometer">Baro.</string>
+    <string name="driving_value_vehicle_speed">Speed</string>
+    <string name="driving_value_engine_rpm">RPM</string>
+    <string name="driving_value_engine_load">Eng. Load</string>
+    <string name="driving_value_aux_battery_level">Batt. Volt.</string>
+    <string name="driving_value_coolant_temperature">Coolant Temp.</string>
+    <string name="driving_value_mil">Malfunction (MIL)</string>
+
+    <string name="driving_value_short_term_fuel_trim">ST Fuel Trim</string>
+    <string name="driving_value_long_term_fuel_trim">LT Fuel Trim</string>
+    <string name="driving_value_fule_pressure">Fuel Pressure</string>
+    <string name="driving_value_intake_air_temperature">In. Air-Temp.</string>
+    <string name="driving_value_ambient_air_temperature">Amb. Air-Temp.</string>
+    <string name="driving_value_throttle_position">Throttle Pos.</string>
+    <string name="driving_value_distance_mil">Distance w. MIL</string>
+    <string name="driving_value_engine_oil_temperature">Eng. Oil Temp.</string>
+    <string name="driving_value_oxygen_sensor_voltage">O2 Sensor Volt.</string>
+
+    <string name="driving_value_fuel_economy">Avg. Fuel Eco.</string>
+    <string name="driving_value_fuel_consumption">Fuel Consump.</string>
+    <string name="driving_value_co2_emission">CO2 Emission</string>
+    <string name="driving_value_fuel_cut_time">Fuelcut Time</string>
+    <string name="driving_value_harsh_accel_count">Harsh Accel. Count</string>
+    <string name="driving_value_harsh_decel_count">Harsh Brake Count</string>
+    <string name="driving_value_eco_speed_time">Eco-speed Time</string>
+    <string name="driving_value_overspeed_time">Overspeed Time</string>
+    <string name="driving_value_idling_time">Idle Time</string>
+    <string name="diagnostic_dtc_reset">Clear stored DTC</string>
+
+    <string name="dialog_diagnostic">Diagnotics</string>
+    <string name="dialog_diagnostic_msg">Car Diagnosting…\u2026</string>
+    <string name="dialog_diagnostic_warning_text">Press car image for checking more details. </string>
+    <string name="dialog_diagnostic_title_ok">No Troubles</string>
+    <string name="dialog_diagnostic_title_warning">DTC Warning</string>
+
+
+    <string name="diagnostic_detail_text">Car maintenance and inspection recommended.</string>
+    <string name="dialog_message">Automatically closed after a while.</string>
+    <string name="diagnostic_message_warning">Press any red-colored lamp if want to check DTC details.</string>
+    <string name="diagnostic_message_good">Car status is good.</string>
+    <string name="dialog_diagnostic_dte_reset_message">Manual DTC clearance is not recommended.\n\nSure to continue?</string>
+    <string name="dialog_diagnostic_driving_warning">Clearing DTC while driving is not supported.\n\nPlease stop your car and retry.</string>
+	<string name="dialog_message_obd_recovery">No data from OBD device.\n\nTry to restart BT of your phone?</string>
+
+    <string name="dialog_title_driving_off">Driving Ended</string>
+    <string name="dialog_message_driving_off">Ignition Off Detected.\n\nWill be terminated in %d sec.</string>
+    <string name="dialog_title_driving_exit">Exit</string>
+    <string name="dialog_message_driving_exit">Will be terminated in %d sec.</string>
+	 <string name="dialog_message_wait_for">Wait for a while…\u2026</string>
+	 <string name="dialog_mesage_ers">Closed automatically in %d sec.</string>
+	<!-- Notifications -->
+    <string name="noti_driving_content_title">@string/app_name</string>
+    <string name="noti_driving_content_on_driving">Driving Started</string>
+    <string name="noti_driving_content_off_driving">Paused</string>
+
+    <!-- Blackbox setting -->
+
+</resources>

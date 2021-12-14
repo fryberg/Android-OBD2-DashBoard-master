@@ -1,0 +1,68 @@
+apply plugin: 'com.android.application'
+
+
+android {
+    signingConfigs {
+        debug {
+            storeFile file('keys\\keys.jks')
+            storePassword '375976'
+            keyAlias 'key0'
+            keyPassword '375976'
+            //C:\Users\fry\AndroidStudioProjects\Android-OBD2-Car-Multitool-master\app\
+        }
+        release {
+        storeFile file('keys\\keys.jks')
+            storePassword '375976'
+            keyAlias 'key0'
+            keyPassword '375976'
+        }
+    }
+    compileSdkVersion 31
+    buildToolsVersion '31.0.0'
+    lintOptions {
+        abortOnError false
+    }
+    defaultConfig {
+        applicationId "com.fry.dashboard.obd"
+        minSdkVersion 23
+        targetSdkVersion 31
+        versionCode 1
+        versionName "1.0.2"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            //minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility = '11'
+        targetCompatibility = '11'
+    }
+
+}
+
+dependencies {
+
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support.constraint:constraint-layout:2.0.4'
+
+    implementation "androidx.appcompat:appcompat:1.4.0"
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.2'
+    implementation 'log4j:log4j:1.2.17'
+    implementation 'com.google.guava:guava:27.0.1-android'
+    implementation 'androidx.localbroadcastmanager:localbroadcastmanager:1.0.0'
+    implementation 'junit:junit:4.13.2'
+    implementation 'com.google.code.gson:gson:2.8.8'
+    testImplementation 'junit:junit:4.13.2'
+    implementation 'androidx.preference:preference:1.1.1'
+    implementation 'com.yandex.android:mapkit:3.5.0'
+
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+}

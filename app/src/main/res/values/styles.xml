@@ -1,0 +1,128 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/Black</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- actionMode -->
+    <!--Aler Dialog -->
+    <style name="MyDialog" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="android:alertDialogStyle">@style/DialogModeStyle</item>
+
+    </style>
+
+    <style name="DialogModeStyle" >
+
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:text">@android:color/white</item>
+        <item name="android:fullDark">@drawable/dialog_body</item>
+        <item name="android:topDark">@drawable/dialog_title</item>
+        <item name="android:centerDark">@drawable/dialog_body</item>
+        <item name="android:bottomDark">@drawable/dialog_footer</item>
+        <item name="android:fullBright">@drawable/dialog_body</item>
+        <item name="android:centerBright">@drawable/dialog_body</item>
+        <item name="android:topBright">@drawable/dialog_title</item>
+        <item name="android:bottomBright">@drawable/dialog_footer</item>
+        <item name="android:bottomMedium">@drawable/dialog_footer</item>
+        <item name="android:centerMedium">@drawable/dialog_body</item>
+    </style>
+
+    <!-- actionBar.Transparent -->
+
+    <!-- ProgressBar -->
+    <style name="progressBarStyle">
+        <item name="android:indeterminateDrawable">@drawable/progress</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:minWidth">30dp</item>
+        <item name="android:minHeight">30dp</item>
+    </style>
+
+    <!-- speedText -->
+
+    <!-- speedUnitText -->
+
+    <style name="defaultText">
+        <item name="android:singleLine">true</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="clusterText" parent="defaultText">
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="clusterMeterText" parent="clusterText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">right</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/cluster_meter_text</item>
+    </style>
+
+    <style name="clusterMeterUnitText" parent="clusterText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/cluster_mater_unit_text</item>
+    </style>
+
+    <style name="clusterValueText" parent="clusterText">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/cluster_value_text</item>
+    </style>
+
+    <style name="clusterUnitText" parent="clusterText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/cluster_unit_text</item>
+    </style>
+
+
+    <style name="DiagnosticIconText">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:drawablePadding">6dp</item>
+        <item name="android:textColor">#cbcbcb</item>
+        <item name="android:enabled">false</item>
+        <item name="android:textSize">12dp</item>
+    </style>
+
+    <style name="DialogTitleText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:drawablePadding">5dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">17dp</item>
+    </style>
+
+    <style name="DialogBottomText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/img_popup_bottom</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">13dp</item>
+    </style>
+
+    <!--<style name="clusterRpmText" parent="clusterText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">60dp</item>
+    </style>-->
+
+    <!--<style name="clusterSpeedText" parent="clusterText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">65dp</item>
+    </style>-->
+
+</resources>

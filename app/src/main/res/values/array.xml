@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 20214. Anthony Fryberg.
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+   <!-- <string-array name="menu_items">
+        <item>@string/navigation_drawer_menu_notice</item>
+        <item>@string/navigation_drawer_menu_event</item>
+        <item>@string/navigation_drawer_menu_blackbox</item>
+        <item>@string/navigation_drawer_menu_vehicle_setting</item>
+        <item>@string/navigation_drawer_menu_blackbox_setting</item>
+        <item>@string/navigation_drawer_menu_setting</item>
+        <item>@string/navigation_drawer_menu_stipulation</item>
+        <item>@string/navigation_drawer_menu_log</item>-->
+
+        <!--<item>@string/navigation_drawer_menu_version_info</item>-->
+        <!--<item>@string/navigation_drawer_menu_obd_contac</item>-->
+        <!--<item>@string/navigation_drawer_menu_mypoint</item>-->
+  <!--  </string-array>-->
+
+    <!--<string-array name="chart_items">
+        <item>@string/tripmon_chart_statistics</item>
+        <item>@string/tripmon_chart_ecopoint</item>
+        <item>@string/tripmon_chart_fueleconomy</item>
+        <item>@string/tripmon_chart_fuelcost</item>
+        <item>@string/tripmon_chart_drivingrate</item>
+    </string-array>-->
+
+    <array name="ani_scan">
+        <item>@drawable/ani_scan001</item>
+        <item>@drawable/ani_scan002</item>
+        <item>@drawable/ani_scan003</item>
+        <item>@drawable/ani_scan004</item>
+        <item>@drawable/ani_scan005</item>
+        <item>@drawable/ani_scan006</item>
+        <item>@drawable/ani_scan007</item>
+        <item>@drawable/ani_scan008</item>
+        <item>@drawable/ani_scan009</item>
+        <item>@drawable/ani_scan010</item>
+        <item>@drawable/ani_scan011</item>
+        <item>@drawable/ani_scan012</item>
+    </array>
+
+</resources>
